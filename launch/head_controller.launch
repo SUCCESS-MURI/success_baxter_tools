@@ -1,0 +1,5 @@
+
+<launch>
+    <node pkg="success_baxter_tools" name="baxter_head_controller" type="head_controller.py"/>
+</launch>  
+  
