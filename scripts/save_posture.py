@@ -9,7 +9,7 @@ from success_baxter_tools.motion import save_posture
 
 def main():
     #start the rosnode
-    rospy.init_node("save_baxter_posture_node")
+    rospy.init_node("save_posture_node")
     #parse the arguments
     parser = argparse.ArgumentParser(description="Script that saves the current position of Baxter's arm as a list of joint position &" + 
         " enable callback with move_to_posture.py")
